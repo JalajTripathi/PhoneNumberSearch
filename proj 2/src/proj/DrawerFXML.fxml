@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vb" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="309.0" prefWidth="113.0" style="-fx-background-color: #ff4b4b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj.DrawControl">
+   <children>
+      <JFXButton prefHeight="44.0" prefWidth="113.0" text="Insert" />
+      <JFXButton fx:id="deleter" onAction="#DeleteRow" prefHeight="44.0" prefWidth="113.0" text="Delete" />
+      <JFXButton prefHeight="44.0" prefWidth="113.0" text="Refresh" />
+      <JFXButton prefHeight="44.0" prefWidth="113.0" text="Back" />
+   </children>
+</VBox>

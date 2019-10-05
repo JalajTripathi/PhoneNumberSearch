@@ -1,0 +1,23 @@
+.animated-option-button{
+	-fx-pref-width:40px;
+	-fx-background-color:#55B449;
+	-fx-background-radius:40px;
+	-fx-pref-height:40px;
+	-fx-text-fill:white;
+	-fx-border-color:GRAY;
+	-fx-border-radius:40px;
+	-fx-border-width:4px;
+}
+.animated-option-sub-button{
+	-fx-background-color:#43509C;
+}
+.animated-option-sub-button2{
+	-fx-background-color: rgb(203,104,96);
+}
+.animated-option-sub-button3{
+	-fx-background-color:#3a9b4b;
+}
+
+.gradien {
+  -fx-background-color: linear-gradient(to bottom right, #c70be4, #4012bc);
+}
